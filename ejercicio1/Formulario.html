@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascrip" src="./javascrip.js"></script>
+    <title>Formulario</title>
+  </head>
+
+  <body>
+<p id="p1">Hola !</p>
+<p id="p2"></p>
+
+<input type="text" placeholder="Escribe tu nombre..." id="inputName"/>
+
+<div id="type">
+    <input type="radio" id="r1" name="typeSelect" value="Estudiante" checked/> Estudiante
+    <input type="radio" name="typeSelect" id="r2" value="Maestro"> Maestro
+</div>
+
+<button type="button" onclick="displayUserDataInScreen(document.getElementById('inputName').value)">Ejecutar</button>
+</body>
+</html>
