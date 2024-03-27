@@ -5,7 +5,7 @@ function displayUserDataInScreen(name) {
     } else {
         valueType = document.getElementById('r2').value;
     }
-    
+
     document.getElementById('p1').innerHTML = '¡Hola ' + name + ' !';
     document.getElementById('p2').innerHTML = 'Tú eres: ' + valueType;
 }
